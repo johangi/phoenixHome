@@ -4,7 +4,10 @@
     left: 0;
     width: 100%;
     z-index: 1000; /* Ensure it stays on top of other elements */
-    background-color: purple;
+    background: linear-gradient(to bottom, purple 20%, transparent 80%);
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -17,4 +20,28 @@
 .navbarLogo {
     width: fit-content;
     left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 1000;
+}
+
+.navbarLinks {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+}
+
+.navbarLink {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 6px 10px 8px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.navbarLink:hover {
+    background-color: white;
+    color: purple;
 }
