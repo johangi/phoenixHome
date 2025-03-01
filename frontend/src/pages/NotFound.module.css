@@ -1,8 +1,13 @@
 .notFound {
     border-radius: 12px;
     border: 1px solid white;
-    background: purple;
+    background: #541D7E;
     padding: 20px 30px;
     width: fit-content;
     margin: 0 auto;
+}
+
+.notFound h2 {
+    font-family: noContinue;
+    color: white;
 }

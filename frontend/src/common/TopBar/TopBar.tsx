@@ -11,8 +11,8 @@ function TopBar() {
                 <h2 className={styles.navbarHeader}>Phoenix LAN</h2>
             </Link>
             <span className={styles.navbarLinks}>
-                <a href='https://delta.phoenixlan.no/' className={styles.navbarLink}>Kjøp Billetter <FontAwesomeIcon icon={faArrowRight} /></a>
-                <a href='https://delta.phoenixlan.no/' className={styles.navbarLink}>Søk Crew <FontAwesomeIcon icon={faArrowRight} /></a>
+                <a href='https://delta.phoenixlan.no/' target="_blank" className={styles.navbarLink} >Kjøp Billetter <FontAwesomeIcon icon={faArrowRight} /></a>
+                <a href='https://delta.phoenixlan.no/crew' target="_blank" className={styles.navbarLink}>Søk Crew <FontAwesomeIcon icon={faArrowRight} /></a>
             </span>
         </nav>
     )

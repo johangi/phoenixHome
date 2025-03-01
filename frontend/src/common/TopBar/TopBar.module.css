@@ -9,7 +9,7 @@
     left: 0;
     width: 100%;
     z-index: 1000; /* Ensure it stays on top of other elements */
-    background: linear-gradient(to bottom, purple 20%, transparent 80%);
+    background: linear-gradient(to bottom, #541D7E 20%, transparent 80%);
     padding: 3px 10px;
     display: flex;
     justify-content: space-between;

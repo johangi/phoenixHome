@@ -1,0 +1,7 @@
+.homeName {
+    font-family: noContinue;
+    background-color: #541D7E 50%;
+    background: linear-gradient(to right,#14C2D7 0%, transparent, #FF4B9D 100%);
+    padding: 15px 20px;
+    border-radius: 12px;
+}
