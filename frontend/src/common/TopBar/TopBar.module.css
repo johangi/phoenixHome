@@ -45,6 +45,7 @@
     padding: 6px 10px 8px;
     border: 1px solid white;
     border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s; /* Add transition property */
 }
 
 .navbarLink:hover {
